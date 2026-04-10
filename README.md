@@ -1,11 +1,3 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Hello+World%21;FullStack+Engineer+In+Training;I+Love+Coffee+%E2%98%95" alt="Typing SVG" />
-
-</div>
-
----
-
 ## 👤 About Me
 
 - 🎓 専門学校生 / 長期インターン中
