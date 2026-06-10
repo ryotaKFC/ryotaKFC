@@ -1,0 +1,10 @@
+---
+name: line-webhook
+description: line-webhookについてまとめたスキル
+---
+
+# timeoutの制約
+line webhookからリクエストが来てから2秒以内にレスポンスを返さないとユーザー側はエラー表示になる。
+裏側では処理が成功してたとしてもUXが悪い。
+重い処理などをやる場合は、先に成功レスポンスだけline webhookに返して非同期でメインの処理をやった方がいいっぽい
+↑けどLambdaとかはreturuした瞬間処理が凍結するので2つぐらいLambda用意する必要がありそう
