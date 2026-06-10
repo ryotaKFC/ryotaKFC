@@ -3,6 +3,8 @@ name: line-webhook
 description: line-webhookについてまとめたスキル
 ---
 
+https://developers.line.biz/ja/reference/messaging-api/#common-specifications
+
 # timeoutの制約
 line webhookからリクエストが来てから2秒以内にレスポンスを返さないとユーザー側はエラー表示になる。
 裏側では処理が成功してたとしてもUXが悪い。
