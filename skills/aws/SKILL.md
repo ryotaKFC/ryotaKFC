@@ -1,6 +1,6 @@
 ---
 name: aws
-description: AWSのLambdaについての知見
+description: AWSについての知見
 ---
 
 # AWS Lambdaとは？
