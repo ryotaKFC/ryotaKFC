@@ -1,8 +1,3 @@
----
-name: line-webhook
-description: line-webhookについてまとめたスキル
----
-
 https://developers.line.biz/ja/reference/messaging-api/#common-specifications
 
 # timeoutの制約
