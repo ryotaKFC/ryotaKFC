@@ -1,9 +1,7 @@
 ---
-name: skills-creator
+name: note-skill-sync
 description: skills/note-<topic>/ 内の生メモ(SKILL.md以外の*.md)から、SKILL.md(frontmatter + 要約)を生成・再生成する。「note-xxxを更新して」「メモをスキルにまとめて」「SKILL.md作って」等の依頼時に使う。
 ---
-
-# skills-creator
 
 ## ルール
 
