@@ -1,5 +1,5 @@
 ---
-name: note-frontend
+name: when-thought
 description: フロントエンド開発(特にnpm等パッケージ管理)のセキュリティに関する学習メモ。npmのサプライチェーン攻撃対策やminimum release age設定、依存アップデート運用でハマった/検討する際にClaudeが参照する。
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: note-aws
+name: use-aws
 description: AWSのCloudWatch(ログ・メトリクス・アラート・ChatBot通知)とLambda/serverless.ymlに関する学習メモ。AWSのログ監視・アラート設計やLambdaの制約、serverless.ymlの環境変数設定について話す際に参照する。
 ---
 

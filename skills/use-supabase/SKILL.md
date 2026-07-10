@@ -1,5 +1,5 @@
 ---
-name: note-supabase
+name: use-supabase
 description: Supabase(認証・CLI設定)に関する学習メモ。Supabase AuthでのOAuth/PKCE実装や認可コード引換の方式選択、Next.js等と組み合わせたローカル開発環境のconfig.toml設定でハマった際にClaudeが参照する。
 ---
 
