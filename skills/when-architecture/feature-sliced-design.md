@@ -67,6 +67,19 @@ apiは実行環境の話ではなく、バックエンドと通信する固ま�
 api/内に置くのが綺麗
 **バックエンドのAPIエンドポイントを置く場所ではない**
 
+## Next.jsとの相性
+あくまでFSDはフロントのアーキテクチャ
+server-onlyな関数はsegmentのapiには置くべきじゃない
+
+### app router, pages　router
+Next.jsではappフォルダ配下を自動でルーティングしてくれる
+＝FSDと名前が正徳する
+
+対処法としては
+- app/*/page.tsxは FSDのpages sliceをimportして描画するだけの薄いファイルにする
+- FSD本体はsrc/に寄せて、Nextのapp/はルーティング専用として割り切る（FSDの app/pages　layerの役割を吸収）
+
+
 ## 公開APIについて
 
 FSDは各フォルダ配下に他モジュールからインポートしてもらう用の公開API（index.ts）を用意するのを推奨している
